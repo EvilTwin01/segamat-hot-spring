@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato','Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/*----------------------------*/
+/*         Main navi          */
+/*----------------------------*/
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+/*----------------------------*/
+/*        Hero Text          */
+/*---------------------------*/
+
+/* linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), */
+
+header{
+    background-image: url(../img/hero-image.jpg);
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero-text-box{
+    position: absolute;
+    top: 50%;
+    left: 27%;
+}
+
+table,td{
+    border: 4px solid #fff;
+    border-collapse: collapse;
+    padding: 30px;
+}
+
+h1{
+    margin: 0;
+    color: #fff;
+    font-size: 240%;
+    font-weight: 600;
+    letter-spacing: 20px;
+    word-spacing: 4px;
+}
+
+h3{
+    margin: 0;
+    color: #fff;
+    font-size: 150%;
+    font-weight: 200;
+}
+
+h4{
+    margin: 0;
+    color: #031432;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+}
+/*----------------------------*/
+/*        section textbox     */
+/*---------------------------*/
+
+.section-textbox-image{
+    background-image: url(../img/home-img-1.jpg);
+    height: 600px;;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-textbox{
+    position: absolute;
+    top: 136%;
+    left: 15%;
+    right: 15%;
+}
+
+/*----------------------------*/
+/*        section attraction  */
+/*---------------------------*/
+
+.section-attraction{
+    padding: 100px 0px;
+}
+
+.box{
+    border: 2px solid #031432;
+    padding: 40px 20px;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.box p{
+    color: #465269;
+    font-size: 80%;
+    text-align: center;
+}
+
+.box:hover{
+    background-color: #EDEFF5;
+    border: 0;
+    transition: all 1.0s ease;
+    transition-delay: 0.1s;
+}
+
+.cta-text-1{
+    text-align: center;
+    border: 2px solid #031432;
+    padding: 15px;
+    font-size: 80%;
+    margin-top: 10px;
+}
+
+.cta-text-1:hover{
+    background-color: #EDEFF5;
+    transition: all 1.0s ease;
+}
+/*----------------------------*/
+/*        section visit us  */
+/*---------------------------*/
+
+.section-visit{
+    background-color: #F5F6F7;
+    height: 800px;
+    padding: 100px 0px;
+}
+
+.price-textbox{
+    border: 2px solid #031432;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.price-textbox-2{
+    border-left: 2px solid #031432;
+    border-right: 2px solid #031432;
+    border-bottom: 2px solid #031432;
+    text-align: center;
+    padding: 20px;
+    color: #031432;
+    font-size: 80%;
+}
+
+#pricing-list-text{
+    margin: 0; 
+    color: #031432;
+}
+
+.maps{
+    float: right;
+    position: absolute;
+    top: 290%;
+    left: 70%;
+}
+
+.visit-text{
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: 400;
+    letter-spacing: 7px;
+    color: #031432;
+}
+
+/*----------------------------*/
+/*        section book now  */
+/*---------------------------*/
+
+.section-textbox-image-2{
+    background-image: url(../img/home_underwater_sectionbg2.jpg);
+    height: 600px;;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-book{
+    position: absolute;
+    top: 370%;
+    left: 24%;
+    right: 15%;
+}
+
+.section-book-h1{
+    margin: 0;
+    color: #fff;
+    font-size: 240%;
+    font-weight: 600;
+}
+
+.column-text-book{
+    padding: 60px 6% 45px; 
+    border: 2px solid #fff;
+    position: absolute;
+    top: 380%;
+    left: 18%;
+    right: 15%;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    line-height: 42px;
+    font-weight: 100;
+    letter-spacing: 7px;
+}
+
+.hover-text-book{
+    padding: 15px 45px; 
+    border: 2px solid #fff;
+    position: absolute;
+    top: 400%;
+    left: 18%;
+    right: 15%;
+    color: #fff;
+    background-color: #014691;
+    text-align: center;
+}
+
+.hover-text-book:hover{
+    background-color: #000A3F;
+    transition: all 0.8s ease;
+}
+/*----------------------------*/
+/*       footer               */
+/*---------------------------*/
+
+.footer-bg{
+    text-align: center;
+    height: 300px;
+    background-color: #000A3F;
+    color: #7A80A0;
+    padding-top: 100px;
+    font-size: 17px;
+}
+
+.footer-copyright{
+    padding-top: 40px;
+    text-align: center;
+    height: 100px;
+    background-color: #000A3F;
+    color: #7A80A0;
+    border-top: 1px solid #7A80A0;
+    font-size: 17px;
+}
