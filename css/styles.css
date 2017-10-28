@@ -32,22 +32,34 @@ html,body{
 /*         Main navi          */
 /*----------------------------*/
 
-.logo {
-    height: 100px;
-    width: auto;
-    float: left;
-    margin-top: 20px;
+.fullscreen-video-wrap{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  overflow:hidden;
 }
 
-.main-nav {
-    float: right;
-    list-style: none;
-    margin-top: 55px;
+.fullscreen-video-wrap video{
+  min-height:100%;
+  min-width:100%;
+}
+
+.header-overlay{
+  height:100vh;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100vw;
+  z-index:1;
+  background:#225470;
+  opacity:0.85;
 }
 
 .main-nav li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 0px;
 }
 
 .main-nav li a:link,
@@ -67,6 +79,13 @@ html,body{
     border-bottom: 2px solid #e67e22;
 }
 
+.navigation{
+    position: absolute;
+    z-index:2;
+    width: 100%;
+    display: none;
+}
+
 /*----------------------------*/
 /*        Hero Text          */
 /*---------------------------*/
@@ -75,7 +94,7 @@ html,body{
 
 header{
     background-image: url(../img/hero-image.jpg);
-    height: 120vh;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -83,8 +102,9 @@ header{
 
 .hero-text-box{
     position: absolute;
-    top: 50%;
-    left: 27%;
+    top: 40%;
+    left: 30%;
+    z-index:2;
 }
 
 table,td{
@@ -130,7 +150,7 @@ h4{
 
 .section-textbox{
     position: absolute;
-    top: 136%;
+    top: 115%;
     left: 15%;
     right: 15%;
 }
@@ -236,25 +256,11 @@ h4{
     background-attachment: fixed;
 }
 
-.section-book{
-    position: absolute;
-    top: 370%;
-    left: 24%;
-    right: 15%;
-}
-
-.section-book-h1{
-    margin: 0;
-    color: #fff;
-    font-size: 240%;
-    font-weight: 600;
-}
-
 .column-text-book{
     padding: 60px 6% 45px; 
     border: 2px solid #fff;
     position: absolute;
-    top: 380%;
+    top: 350%;
     left: 18%;
     right: 15%;
     color: #fff;
@@ -269,7 +275,7 @@ h4{
     padding: 15px 45px; 
     border: 2px solid #fff;
     position: absolute;
-    top: 400%;
+    top: 370%;
     left: 18%;
     right: 15%;
     color: #fff;
