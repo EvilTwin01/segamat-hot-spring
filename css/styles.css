@@ -508,6 +508,10 @@ h4{
     font-size: 80%;
     background-color: #EDEFF5;
 }
+.buy-now a{
+    text-decoration: none;
+    color: black;
+}
 
 .section-pricing{
     padding: 80px 0px;
@@ -592,4 +596,22 @@ h4{
 
 .address-top{
     padding: 0px 0px 50px 0px;
+}
+
+/*----------------------------*/
+/*      attraction          */
+/*---------------------------*/
+
+.section-attraction-img{
+    padding: 70px 0px;
+}
+
+.section-about-bg-2{
+    background-image: url(../img/water.jpg);
+    height: 70vh;
+    background-attachment: fixed;
+}
+
+.entrance-holder{
+    padding: 40px 0px;
 }
