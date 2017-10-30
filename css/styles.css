@@ -27,6 +27,11 @@ html,body{
     height: 0;
     visibility: hidden;
 }
+/*----------------------------*/
+/*----------------------------*/
+/*------------HOME------------*/
+/*----------------------------*/
+/*----------------------------*/
 
 /*----------------------------*/
 /*         Main navi          */
@@ -92,12 +97,8 @@ html,body{
 
 /* linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), */
 
-header{
-    background-image: url(../img/hero-image.jpg);
+.home-header{
     height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 .hero-text-box{
@@ -308,4 +309,91 @@ h4{
     color: #7A80A0;
     border-top: 1px solid #7A80A0;
     font-size: 17px;
+}
+
+/*----------------------------*/
+/*----------------------------*/
+/*-----------ABOUT US---------*/
+/*----------------------------*/
+/*----------------------------*/
+
+/*----------------------------*/
+/*       header about us      */
+/*---------------------------*/
+
+.header-section{
+    background-image: url(../img/home_underwater_subheader1.jpg);
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+}
+
+.logo{
+    padding-top: 30px;
+    float: left;
+}
+
+.nav-bar{
+    padding-top: 30px;
+    float: right;
+}
+
+.hero-about-text{
+    position: absolute;
+    top: 20%;
+    text-align: center;
+}
+
+/*----------------------------*/
+/*       section 1 about us      */
+/*---------------------------*/
+
+.section-about-bg{
+    background-image: url(../img/water.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/*----------------------------*/
+/*       about us side image      */
+/*---------------------------*/
+
+.image-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.section-about-showcase{
+    padding: 0;
+}
+
+.image-showcase li {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+.side-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.side-photo img {
+    opacity: 1.0;
+    width: 100%;
+    height: 600px;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.side-photo img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
 }
