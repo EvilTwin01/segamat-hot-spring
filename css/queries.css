@@ -448,6 +448,59 @@
     .section-about-bg{
         height: 170vh;
     }
+    
+    /* home */
+    
+    .hero-text-box{
+        left: 9%;
+    }
+    
+    #labis-hot-spring {
+        font-size: 160%;
+    }
+    
+    #hotspots {
+        font-size: 147%;
+    }
+    
+    #no-one {
+        font-size: 195%;
+    }
+    
+    .section-textbox-image {
+        height: 700px;
+    }
+    
+    .box {
+        border: 0;
+        padding: 0px;
+        margin-bottom: 47px;
+    }
+    
+    #holiday-text {
+        padding: 31px 35px;
+    }
+    
+    .text-book {
+        top: 700%;
+    }
+    
+    .section-visit{
+        padding-bottom: 1600px;
+    }
+    
+    .working-hour{
+        margin-left: 70px;
+    }
+    
+    #maps-iframe{
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+    
+    #price-smaller{
+        margin-left: 70px;
+    }
 }
 
 
@@ -619,14 +672,5 @@
     #history-p {
         margin: 0px 46px;
         padding-top: 20px;
-    }
-}
-
-/* home fix */
-@media only screen and (max-width: 1184px) {
-    /* home */
-    
-    .hero-text-box {
-        left: 23%;
     }
 }
