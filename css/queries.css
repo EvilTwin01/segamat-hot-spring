@@ -31,6 +31,20 @@
     .hero-about-text {
         left: 42%;
     }
+    
+    /* attraction */
+    
+    .hero-about-text {
+        left: 37%;
+    }
+    
+    #attract-left{
+    margin-left: 0px;
+    }
+
+    #attract-right{
+        margin-right: 0px;
+    }
 }
 
 
@@ -72,6 +86,16 @@
     
     .button-style{
         padding: 15px 307px;
+    }
+    
+    /* about us */
+    
+    .side-photo img {
+        height: 480px;
+    }
+    
+    .section-about-bg{
+        height: 90vh;
     }
 }
 
@@ -203,9 +227,52 @@
         margin: 0px 50px;
     }
     
-    /* pricing */
+    /* attraction */
+    .hero-about-text {
+        left: 31%;
+    }
     
+    .left-attraction{
+       margin-left: 20px;
+    }
     
+    .side-photo img {
+        height: 400px;
+    }
+    
+    /* about us */
+    
+    .col{
+        width: 100%;
+    }
+    
+    .section-about-bg{
+        height: 110vh;
+    }
+    
+    #about-text-mother-bold{
+        margin: 0px 20px;
+    }
+
+    #about-text-mother-thin{
+       margin: 0px 20px;
+    }
+    
+    #about-text-mother-bold-1{
+        margin: 0px 38px;
+    }
+
+    #about-text-mother-thin-1{
+       margin: 0px 38px;
+    }
+    
+    #history-p {
+        margin: 0px 30px;
+    }
+    
+    #history-p-1 {
+        margin: 0px 47px;
+    }
 }
 
 
@@ -305,6 +372,27 @@
         top: 236%;
         padding: 15px 184px;
     }
+    
+    /* attraction */
+    
+    .hero-about-text {
+        left: 23%;
+    }
+    
+    .side-photo img {
+        height: 288px;
+    }
+    
+    /* about us */
+    
+    .hero-about-text {
+        left: 26%;
+        padding-top: 20px;
+    }
+    
+    .section-about-bg{
+        height: 170vh;
+    }
 }
 
 
@@ -398,6 +486,57 @@
     
     .come-text-2 {
         margin: 20px 66px;
+    }
+    
+    /* Attraction */
+    
+    .hero-about-text {
+        left: 12%;
+        padding-top: 25px;
+        font-size: 74%;
+    }
+    
+    .section-about-bg-2{
+        height: 90vh;
+    }
+    
+    .section-about-bg-2 h2{
+        color: black;
+    }
+    
+    #attraction-yourself{
+        font-size: 31px; 
+    }
+    
+    #attract-left{
+        margin: 0px 20px;
+    }
+
+    #attract-right{
+        margin: 0px 20px;
+    }
+    
+    .side-photo img {
+        height: 200px;
+    }
+    
+    #title-img-side{ 
+     font-size: 36px; 
+    }
+    
+    #img-side-p{
+        margin: 0px 20px;
+    }
+    
+    /* about us */
+    
+    .hero-about-text {
+        left: 26%;
+        padding-top: 20px;
+    }
+    
+    .section-about-bg{
+        height: 170vh;
     }
 }
 
