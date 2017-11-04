@@ -26,6 +26,10 @@
         padding: 15px 337px;
     }
     
+    table, td {       
+        padding: 0px;
+    }
+    
     /* pricing */
     
     .hero-about-text {
@@ -52,6 +56,10 @@
 /* Big tablet to 1200px (widths smaller then the 1140px row) */
 @media only screen and (max-width: 1200px) {
     /* contact */
+    table, td {       
+        padding: 0px;
+    }
+    
     .hero-contact-text{
         left: 38%;
         position: absolute;
@@ -97,12 +105,34 @@
     .section-about-bg{
         height: 90vh;
     }
+    
+    /* home */
+    
+    .hero-text-box {
+        left: 23%;
+    }
+    
+    #home-visit-row {
+        margin: 0px 97px;
+        position: relative;
+        right: 6%;
+    }
+    
+    .text-book{
+        position: absolute;
+        top: 405%;
+        left: 10%;
+    }
 }
 
 
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
     /* contact */
+    table, td {       
+        padding: 0px;
+    }
+    
     .hero-contact-text{
         left: 35%;
         position: absolute;
@@ -273,12 +303,37 @@
     #history-p-1 {
         margin: 0px 47px;
     }
+    
+    /* home */
+    
+    .hero-text-box {
+        left: 18%;
+    }
+    
+    #home-visit-row {
+        margin: 0px 97px;
+        position: relative;
+        right: 6%;
+    }
+    
+    .column-text-book {
+        top: 405%;
+        font-size: 21px;
+    }
+    
+    .hover-text-book {
+        top: 425%;
+    }
 }
 
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
     /* contact */
+    table, td {       
+        padding: 0px;
+    }
+    
     .hero-contact-text{
         left: 30%;
         position: absolute;
@@ -400,6 +455,10 @@
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
    /* contact */
+    table, td {       
+        padding: 0px;
+    }
+    
     .hero-contact-text{
         left: 23%;
         margin-top: 29px;
@@ -563,3 +622,11 @@
     }
 }
 
+/* home fix */
+@media only screen and (max-width: 1184px) {
+    /* home */
+    
+    .hero-text-box {
+        left: 23%;
+    }
+}
