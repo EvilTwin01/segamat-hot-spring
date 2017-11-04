@@ -194,6 +194,18 @@
         font-size: 80%;
         background-color: #EDEFF5;
     }
+    
+    .come-text-1{
+        margin: 0px 67px;
+    }
+    
+    .come-text-2{
+        margin: 0px 50px;
+    }
+    
+    /* pricing */
+    
+    
 }
 
 
@@ -255,6 +267,44 @@
     .input-style {
         padding: 12px 219px;
     }
+    
+    /* pricing */
+    
+    .hero-about-text {
+        left: 33%;
+    }
+    
+    .buy-now-1-1023px{
+        left: 16%;
+        top: 110%;
+        padding: 15px 194px;
+    }
+    
+    .price-1-1023px {
+        padding: 38px 40px;
+        margin: 106px 124px;
+        left: -2%;
+        position: relative;
+    }
+    
+    .buy-now-2-1023px{
+        left: 16%;
+        top: 173%;
+        padding: 15px 191px;
+    }
+    
+    .price-2-1023px {
+        padding: 38px 40px;
+        margin: 0px 124px;
+        left: -2%;
+        position: relative;
+    }
+    
+    .buy-ticket-now-1023px{
+        left: 16%;
+        top: 236%;
+        padding: 15px 184px;
+    }
 }
 
 
@@ -314,6 +364,40 @@
     
     .button-style {
         padding: 15px 133px;
+    }
+    
+    /* pricing */
+    
+    .hero-about-text {
+        left: 25%;
+        padding-top: 25px;
+        font-size: 80%;
+    }
+    
+    .price-1 {
+        margin: 57px 38px;
+    }
+    
+    .buy-now-1-1023px {
+        left: 9%;
+        top: 122%;
+        padding: 15px 130px;
+    }
+    
+    .buy-now-2-1023px {
+        left: 7%;
+        top: 189%;
+        padding: 15px 130px;
+    }
+    
+    .buy-ticket-now-1023px {
+        left: 7%;
+        top: 256%;
+        padding: 15px 123px;
+    }
+    
+    .come-text-2 {
+        margin: 20px 66px;
     }
 }
 
