@@ -531,12 +531,35 @@
     /* about us */
     
     .hero-about-text {
-        left: 26%;
+        left: 17%;
         padding-top: 20px;
     }
     
     .section-about-bg{
-        height: 170vh;
+        height: 150vh;
+    }
+    
+    #about-text-mother-bold-1 {
+        margin: 0px 20px;
+    }
+    
+    #about-text-mother-thin-1 {
+        margin: 0px 20px;
+        padding-bottom: 20px;
+    }
+    
+    #about-text-mother-thin{
+        margin: 0px 20px;
+        padding-bottom: 20px;
+    }
+    
+    #mother-text-big{
+        font-size: 27px; 
+    }
+    
+    #history-p {
+        margin: 0px 46px;
+        padding-top: 20px;
     }
 }
 
