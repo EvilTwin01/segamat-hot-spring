@@ -1,6 +1,8 @@
 /* Big tablet to 1600px */
 @media only screen and (max-width: 1600px) {
+    
     /* contact */
+    
     .map-style{
         border: 2px solid #031432;
         margin: 0px auto;
@@ -9,6 +11,25 @@
     .map-style iframe{
         width:  1135px; 
         height: 450px; 
+    }
+    
+    .hero-contact-text{
+        left: 41%;
+    }
+    
+    .input-style-textarea {
+        padding: 12px 290px;
+        font-size: 80%;
+    }
+    
+    .button-style{
+        padding: 15px 337px;
+    }
+    
+    /* pricing */
+    
+    .hero-about-text {
+        left: 42%;
     }
 }
 
@@ -38,6 +59,19 @@
         height: 450px;
         padding-left: 0px;
         padding-right: -80px;
+    }
+    
+    .input-style {
+        padding: 12px 260px;
+    }
+    
+    .input-style-textarea {
+        padding: 12px 260px;
+        font-size: 80%;
+    }
+    
+    .button-style{
+        padding: 15px 307px;
     }
 }
 
@@ -84,6 +118,82 @@
     .button-style {
         padding: 15px 413px;
     }
+    
+    .input-style {
+        padding: 12px 336px;
+    }
+    
+    .input-style-textarea {
+        padding: 12px 335px;
+    }
+    
+    .button-style {
+        padding: 15px 382px;
+    }
+    
+    .table-float{
+        position: relative;
+        left: 4%;
+    }
+    
+     /* pricing */
+    
+    .hero-about-text {
+        left: 37%;
+    }
+      
+    .price-1 {
+        border: 2px solid black;
+        padding: 38px 40px;
+        margin: 0px 121px;
+    }
+    
+    .buy-now-1-1023px{
+        position: absolute;
+        left: 12%;
+        top: 108%;
+        padding: 15px 322px;
+        border: 2px solid black;
+        text-align: center;
+        font-size: 80%;
+        background-color: #EDEFF5;
+    }
+    
+    .price-1-1023px {
+        padding: 38px 40px;
+        margin: 106px 124px;
+        left: -2%;
+        position: relative;
+    }
+    
+    .buy-now-2-1023px{
+        position: absolute;
+        left: 12%;
+        top: 169%;
+        padding: 15px 319px;
+        border: 2px solid black;
+        text-align: center;
+        font-size: 80%;
+        background-color: #EDEFF5;
+    }
+    
+    .price-2-1023px {
+        padding: 38px 40px;
+        margin: 0px 124px;
+        left: -2%;
+        position: relative;
+    }
+    
+    .buy-ticket-now-1023px{
+        position: absolute;
+        left: 12%;
+        top: 230%;
+        padding: 15px 312px;
+        border: 2px solid black;
+        text-align: center;
+        font-size: 80%;
+        background-color: #EDEFF5;
+    }
 }
 
 
@@ -128,6 +238,23 @@
     .button-style {
         padding: 15px 283px;
     }
+    
+    .table-float {
+        position: relative;
+        left: 4%;
+    }
+    
+    .button-style {
+        padding: 15px 264px;
+    }
+    
+    .input-style-textarea {
+        padding: 12px 218px;
+    }
+    
+    .input-style {
+        padding: 12px 219px;
+    }
 }
 
 
@@ -155,7 +282,7 @@
     }
     
     .input-style {
-        padding: 12px 130px;
+        padding: 12px 87px;
     }
     
     .input-style-textarea {
@@ -174,6 +301,19 @@
     
     .map-style {
         margin: 0 30px;
+    }
+    
+    .table-float {
+        position: relative;
+        left: 7%;
+    }
+    
+    .input-style-textarea {
+        padding: 12px 86px;
+    }
+    
+    .button-style {
+        padding: 15px 133px;
     }
 }
 

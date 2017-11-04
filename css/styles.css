@@ -556,13 +556,29 @@ h4{
 
 .buy-now{
     position: absolute;
-    top: 119%;
+    top: 115%;
     padding: 15px 130px;
     border: 2px solid black;
     text-align: center;
     font-size: 80%;
     background-color: #EDEFF5;
 }
+
+.buy-ticket-now{
+    position: absolute;
+    top: 115%;
+    padding: 15px 124px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 80%;
+    background-color: #EDEFF5;
+}
+
+.buy-ticket-now a{
+    text-decoration: none;
+    color: black;
+}
+
 .buy-now a{
     text-decoration: none;
     color: black;
