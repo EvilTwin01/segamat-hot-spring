@@ -1,9 +1,11 @@
+<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/grid.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="css/queries.css">
 </head>
 <body>
     <header>
@@ -23,7 +25,7 @@
                 <div class="row">
                     <div class="col span-1-of-3">&nbsp;</div>
                     <div class="col span-1-of-3">
-                        <div class="hero-about-text">
+                        <div class="hero-contact-text">
                             <h1 style="text-align: center;">Contact</h1>
                         </div>
                     </div>
@@ -51,14 +53,33 @@
             </div>
             <div class="col span-2-of-3">
                 <div class="form-text">
-                    <h2 style="color: #130c16; letter-spacing: 7px; font-size: 180%; font-weight: 200;">Get in touch</h2><br>
-                    <p style="color: #444C72; font-size: 80%;">Our customer support services are the best in the biz, with a 99% customer satisfaction rating. They're standing by to help you.</p><br>
-                    <form>
+                    <div class="form-text-767px">
+                        <h2 style="color: #130c16; letter-spacing: 7px; font-size: 180%; font-weight: 200;">Get in touch</h2><br>
+                        <p style="color: #444C72; font-size: 80%;">Our customer support services are the best in the biz, with a 99% customer satisfaction rating. They're standing by to help you.</p><br>
+                    </div>
+                    <form><!--
                         <input class="input-style" type="text" placeholder="Your name"><br><br>
                         <input class="input-style" type="email" placeholder="Your email"><br><br>
                         <input class="input-style" type="text" placeholder="Subject"><br><br>
                         <textarea class="input-style" type="text" placeholder="Message"></textarea><br><br>
-                        <input class="button-style" type="button" name="submit" value="Send a message">
+                        <input class="button-style" type="button" name="submit" value="Send a message"> -->
+                        <table border="0">
+                            <tr>
+                                <td><input class="input-style" type="text" placeholder="Your name"><br><br></td>
+                            </tr>
+                            <tr>
+                                <td><input class="input-style" type="email" placeholder="Your email"><br><br></td>
+                            </tr>
+                            <tr>
+                                <td><input class="input-style" type="text" placeholder="Subject"><br><br></td>
+                            </tr>
+                            <tr>
+                                <td><textarea class="input-style-textarea" type="text" placeholder="Message"></textarea><br><br></td>
+                            </tr>
+                            <tr>
+                                <td><input class="button-style" type="button" name="submit" value="Send a message"></td>
+                            </tr>
+                        </table>
                     </form>
                 </div>
             </div>
@@ -71,20 +92,22 @@
                 <h2 style="padding-left: 35px; text-align: center; letter-spacing: 7px; color: #130c16; font-size: 180%; font-weight: 100;">Our Address</h2>
                 <div class="col span-1-of-3"></div>
                 <div class="col span-2-of-2">
-                    <p style="text-align: center; font-size: 80%;">Labis Hot Spring are located just 40 minutes drive from Segamat and 15 minutes drive from plus highway. Soak in our hot pools, set up camp or enjoy our park, all just a short drive from Segamat. </p>
+                    <p class="our-address-p">Labis Hot Spring are located just 40 minutes drive from Segamat and 15 minutes drive from plus highway. Soak in our hot pools, set up camp or enjoy our park, all just a short drive from Segamat. </p>
                 </div>
                 <div class="col span-1-of-3"></div>
             </div>
         </div>
         <div class="row">
-            <iframe width="1200" height="450" frameborder="0" style="border: 2px solid #031432;" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJlS6e-2PZzzERkwAXxsLpv7A&key=AIzaSyBT8ONjKSuR5ZRwVKlKHAdy3kn95P-mrlg" allowfullscreen></iframe>
+            <div class="map-style">
+                <iframe width="1200" height="450" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJlS6e-2PZzzERkwAXxsLpv7A&key=AIzaSyBT8ONjKSuR5ZRwVKlKHAdy3kn95P-mrlg" allowfullscreen></iframe>
+            </div>
         </div>
     </section>
     
     <footer>
         <div class="footer-bg">
             <div class="row">
-                <img style="padding-bottom: 20px" src="img/logo.png" alt="logo">
+                <img style="padding-bottom: 40px" src="img/logo.png" alt="logo">
                 <p>Labis Hot Spring is a unique and remarkable corner of the state and we want to share it with visitors who are looking to experience a powerful sense of place created by nature. There’s only one hot springs in Segamat and it’s right here in Labis Hot Spring! </p>
             </div>
         </div>
