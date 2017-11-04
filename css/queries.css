@@ -673,4 +673,83 @@
         margin: 0px 46px;
         padding-top: 20px;
     }
+    
+    /* Home */
+    
+    .hero-text-box {
+        left: 5%;
+        right: 5%;
+    }
+    
+    #labis-hot-spring {
+        font-size: 122%;
+    }
+    
+    #hotspots {
+        font-size: 122%;
+    }
+    
+    #all-season {
+        display: none;
+    }
+    
+    #largest-text {
+        font-size: 146%;
+        letter-spacing: 1px;
+    }
+    
+    #family-park-text {
+        font-size: 102%;
+    }
+    
+    .section-textbox {
+        position: absolute;
+        top: 123%;
+        left: 15%;
+        right: 15%;
+    }
+    
+    .section-textbox-image{
+        height: 600px;
+    }
+    
+    .section-visit {
+        padding-bottom: 1428px;
+    }
+    
+    .text-book {
+        top: 595%;
+        left: 4%;
+    }
+    
+    #holiday-text {
+        padding: 0px 0px;
+        font-size: 134%;
+        letter-spacing: 0px;
+    }
+    
+    #ticket-today {
+        padding: 15px 121px;
+    }
+    
+    .section-textbox-image-2{
+        height: 400px;
+    }
+    
+    .price-textbox {
+        padding: 20px 20px;
+        margin: 0px -74px;
+    }
+
+    .price-textbox-2 {
+        margin: 0px -74px;
+    }
+    
+    .working-hour {
+        margin: 0px -21px;
+    }
+    
+    #maps-iframe {
+        margin: 35px -65px;
+    }
 }
