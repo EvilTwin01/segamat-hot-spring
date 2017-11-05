@@ -367,6 +367,13 @@ h4{
     transition: all 1.0s ease;
     transition-delay: 0.1s;
 }
+
+#visit-text-2{
+        text-align: center; 
+        color: #5F6787; 
+        font-size: 90%; 
+        padding-bottom: 40px;
+}
 /*----------------------------*/
 /*        section attraction  */
 /*---------------------------*/
@@ -527,6 +534,11 @@ h4{
     text-align: center;
 }
 
+.hero-attraction-text{
+    position: absolute;
+    top: 20%;
+    text-align: center;
+}
 /*----------------------------*/
 /*       section 1 about us      */
 /*---------------------------*/

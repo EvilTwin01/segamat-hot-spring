@@ -831,7 +831,7 @@
 
 /* Smallest phones: from 320px to 411px */
 @media only screen and (max-width: 411px) {
-    
+ 
     .main-nav {
         padding: 90px 0px;
     }
@@ -892,6 +892,9 @@
     }
     
     /* pricing */
+    .hero-about-text {
+        left: 22%;
+    }
     
     .buy-now-1-1023px {
         top: 126%;
@@ -915,9 +918,10 @@
         position: absolute;
     }
     
-    .hero-about-text {
+    .hero-attraction-text {
         left: 8%;
         font-size: 60%;
+        padding-top: 20px;
     }
     
     #attraction-yourself {
@@ -926,10 +930,51 @@
     
      /* about us */
     .hero-about-text {
-        left: 15%;
+        left: 11%;
     }
     
     .section-about-bg {
         height: 175vh;
+    }
+    
+     /* home */
+    
+    .section-visit {
+        padding-bottom: 1048px;
+    }
+    
+    #maps-iframe {
+        display: none;
+    }
+    
+    .text-book {
+        top: 540%;
+        left: 4%;
+        right: 4%;
+    }
+    
+    .visit-text {
+        font-size: 34px;
+    }
+    
+    #visit-text-2{
+        font-size: 80%;
+        margin: 0px 20px;
+    }
+    
+    #ticket-today {
+        padding: 15px 91px;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 0px) {
+    .main-nav {
+        padding: 90px 0px;
+    }
+    
+    .logo {
+        height: 30px;
+        margin-top: 39px;
+        padding-left: 14px;
     }
 }
