@@ -785,9 +785,32 @@ h4{
     font-size: 80%;
 }
 
+#our-address-big{
+    padding-left: 35px; 
+    text-align: center; 
+    letter-spacing: 7px; 
+    color: #130c16; 
+    font-size: 180%; 
+    font-weight: 100;
+}
+
+#get-in-touch{
+    color: #130c16; 
+    letter-spacing: 7px; 
+    font-size: 180%; 
+    font-weight: 200;
+}
+
+#standing{
+    color: #444C72; 
+    font-size: 80%;
+}
 /*----------------------------*/
 /*      attraction          */
 /*---------------------------*/
+#attraction-text-main{
+    text-align: center;
+}
 
 .section-attraction-img{
     padding: 70px 0px;

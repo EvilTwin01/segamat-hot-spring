@@ -753,3 +753,183 @@
         margin: 35px -65px;
     }
 }
+
+/* Smallest phones: from 0 to 320px */
+@media only screen and (max-width: 320px) {
+    /* Contact */
+    
+    .logo {
+        height: 29px;
+        margin-top: 30px;
+        padding-left: 10px;
+    }
+    
+    .mobile-nav-icon i {
+        font-size: 159%;
+        position: absolute;
+        left: -27%;
+        margin-top: -3px;
+    }
+    
+    .hero-contact-text {
+        left: 17%;
+        font-size: 44%;
+    }
+    
+    .phone-no-bg {
+        font-size: 55%;
+    }
+    
+    .opening-text {
+        left: 54%;
+        margin: 0px -54px;
+    }
+    
+    .form-text-767px {
+        left: 50%;
+        margin: 66px -57px;
+    }
+    
+    .input-style {
+        padding: 8px 30px;
+    }
+    
+    .table-float {
+        left: -8%;
+    }
+    
+    .input-style-textarea {
+        padding: 12px 30px;
+    }
+    
+    .button-style {
+        padding: 15px 77px;
+    }
+    
+    #footer-text {
+        font-size: 80%;
+        margin: 0px 10px;
+    }
+    
+    #copyright{
+        font-size: 80%;
+    }
+    
+    #our-address-big {
+        padding-left: 0px;
+        font-size: 148%;
+    }
+    
+    .main-nav {
+        padding: 90px 0px;
+    }
+    
+    .header-section {
+        height: 40vh;
+    }
+}
+
+/* Smallest phones: from 320px to 411px */
+@media only screen and (max-width: 411px) {
+    
+    .main-nav {
+        padding: 90px 0px;
+    }
+    
+    .logo {
+        height: 30px;
+        margin-top: 39px;
+        padding-left: 14px;
+    }
+    
+    .hero-contact-text {
+        left: 18%;
+    }
+    
+    .opening-text {
+        margin: 0px -39px;
+        left: 33%;
+        margin-bottom: 40px;
+    }
+    
+    #get-in-touch {
+        letter-spacing: 3px;
+        font-size: 161%;
+    }
+    
+    #standing {
+        margin: 0px -38px;
+    }
+    
+    .button-style {
+        padding: 15px 117px;
+    }
+    
+    .input-style {
+        padding: 12px 72px;
+    }
+    
+    .table-float {
+        left: -3%;
+    }
+    
+    .input-style-textarea {
+        padding: 12px 71px;
+    }
+    
+    #our-address-big {
+        padding-left: 5px;
+        
+    }
+    
+    #footer-text {
+        font-size: 80%;
+        margin: 0px 10px;
+    }
+    
+    #copyright{
+        font-size: 80%;
+    }
+    
+    /* pricing */
+    
+    .buy-now-1-1023px {
+        top: 126%;
+        padding: 15px 101px;
+    }
+    
+    .buy-now-2-1023px {
+        top: 198%;
+        padding: 15px 101px;
+    }
+    
+    .buy-ticket-now-1023px {
+        top: 270%;
+        padding: 15px 94px;
+    }
+    
+     /* attraction */
+    
+    #attraction-text-main{
+        text-align: center;
+        position: absolute;
+    }
+    
+    .hero-about-text {
+        left: 8%;
+        font-size: 60%;
+    }
+    
+    #attraction-yourself {
+        font-size: 26px;
+    }
+    
+     /* about us */
+    .hero-about-text {
+        left: 15%;
+    }
+    
+    .section-about-bg {
+        height: 175vh;
+    }
+}
